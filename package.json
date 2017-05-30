@@ -1,0 +1,36 @@
+{
+  "name": "presidium",
+  "version": "0.0.1",
+  "description": "A Jekyll based project using Presidium technical documentation templates.",
+  "license": "Apache-2.0",
+  "homepage": "http://presidium.spandigital.net/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SPANDigital/presidium"
+  },
+  "authors": [
+    {
+      "name": "Paco Mendes",
+      "email": "paco.mendes@spandigital.com"
+    },
+    {
+      "name": "Travis Pawley",
+      "email": "travis@spandigital.com"
+    },
+    {
+      "name": "Dominic Follett-Smith",
+      "email": "dominic@spandigital.com"
+    }
+  ],
+  "scripts": {
+    "clean": "presidium clean",
+    "install": "presidium install",
+    "build": "presidium build",
+    "start": "presidium start",
+    "gh-pages": "presidium gh-pages",
+    "validate": "presidium validate"
+  },
+  "devDependencies": {
+    "presidium-core" : "^0.1.4"
+  }
+}
